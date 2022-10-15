@@ -25,8 +25,8 @@ default = ["config"]
 # enable configuration file (sailfish.yml) support
 config = ["sailfish-compiler/config"]
 
-[dependencies]
-proc-macro2 = "1.0.11"
+[dependencies.proc-macro2]
+version = ">=1.0.11, <=1.0.47"
 
 [dependencies.sailfish-compiler]
 path = "../sailfish-compiler"
